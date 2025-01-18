@@ -1,7 +1,8 @@
 //
-//  Created by Robert Petras
-//  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//  https://swiftuimasterclass.com 
+//  HeaderDetailView.swift
+//  Touchdown
+//
+//  Created by MarthaBakManis on 15/01/25.
 //
 
 import SwiftUI
@@ -11,8 +12,8 @@ import SwiftUI
 let players: [Player] = Bundle.main.decode("player.json")
 let categories: [Category] = Bundle.main.decode("category.json")
 let products: [Product] = Bundle.main.decode("product.json")
-//let brands: [Brand] = Bundle.main.decode("brand.json")
-//let sampleProduct: Product = products[0]
+let brands: [Brand] = Bundle.main.decode("brand.json")
+let sampleProduct: Product = products[0]
 
 // COLOR
 

@@ -1,12 +1,13 @@
 //
-//  Created by Robert Petras
-//  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//  https://swiftuimasterclass.com 
+//  HeaderDetailView.swift
+//  Touchdown
+//
+//  Created by MarthaBakManis on 15/01/25.
 //
 
 import Foundation
 
-//class Shop: ObservableObject {
-//  @Published var showingProduct: Bool = false
-//  @Published var selectedProduct: Product? //= nil 
-//}
+class Shop: ObservableObject {
+  @Published var showingProduct: Bool = false
+  @Published var selectedProduct: Product? //= nil 
+}
